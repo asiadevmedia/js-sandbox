@@ -1,0 +1,31 @@
+{
+    "name": "asiadevmedia/js-sandbox",
+    "description": "Embedding JavaScript in PHP made easy: the definitive library for php-v8 extension",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Teguh Priyanto",
+            "email": "asiadevmedia@gmail.com",
+            "homepage": "https://github.com/asiadevmedia"
+        }
+    ],
+    "require": {
+        "php": "7.1",
+        "league/flysystem": "1.0",
+        "pinepain/php-v8-stubs": "0.2.1",
+        "pinepain/php-ref-stubs": "0.5.0",
+        "pinepain/php-object-maps": "0.3.0"
+    },
+    "require-dev": {
+        "illuminate/support": "5.5.*",
+        "illuminate/contracts": "5.5.*",
+        "phpunit/phpunit": "~6.3",
+        "phpstan/phpstan": "0.8.5"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Asiadevmedia\\JsSandbox\\": "src/"
+        }
+    }
+}
